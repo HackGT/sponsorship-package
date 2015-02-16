@@ -22,6 +22,8 @@
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="picturegallery/css/bootstrap-image-gallery.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -62,6 +64,59 @@
                 <br>
                 <h3>/> HackGT is WAY More Than a Career Fair</h3>
                 <p>We want sponsors to get to know these students. They are great potential future interns and full time workers. We give sponsors exclusive access to more than just the students’ resumes, placing hackers and sponsors in a setting that is way more comfortable and inviting than career fair booths. Our sponsor lounges provide an unprecedented experience for students and sponsors that lends itself to conversation rather than a pitch exchange.</p>
+
+                <div id="blueimp-gallery" class="blueimp-gallery">
+                    <!-- The container for the modal slides -->
+                    <div class="slides"></div>
+                    <!-- Controls for the borderless lightbox -->
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+                    <div class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="background-color:#3d3d3d;">
+                                <div class="modal-header" style="border-bottom:None;">
+                                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title"></h4>
+                                </div>
+                                <div class="modal-body next"></div>
+                                <div class="modal-footer" style="border-top:None;">
+                                    <button type="button" class="btn btn-default pull-left prev" style="border-color:white; color:white;">
+                                        <i class="glyphicon glyphicon-chevron-left"></i>
+                                        Previous
+                                    </button>
+                                    <button type="button" class="btn btn-default next" style="border-color:white; color:white;">
+                                        Next
+                                        <i class="glyphicon glyphicon-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="links">
+                    <a href="img/1.jpg" title="Cardlytics Lounge" data-gallery>
+                        <img style='height:19%; width:19%;' src="img/1.jpg" alt="Banana">
+                    </a>
+                    <a href="img/2.jpg" title="HUGE Lounge" data-gallery>
+                        <img style='height:19%; width:19%;' src="img/2.jpg" alt="Apple">
+                    </a>
+                    <a href="img/3.jpg" title="Mailchimp Lounge" data-gallery>
+                        <img style='height:19%; width:19%;' src="img/3.jpg" alt="Orange">
+                    </a>
+                    <a href="img/4.jpg" title="Mailchimp Lounge" data-gallery>
+                        <img style='height:19%; width:19%;' src="img/4.jpg" alt="Orange">
+                    </a>
+                    <a href="img/5.jpg" title="Cardlytics Lounge" data-gallery>
+                        <img  style='height:19%; width:19%;'src="img/5.jpg" alt="Orange">
+                    </a>
+                </div>
+                <br>
+                <br>
                 <br>
                 <h3>/> API or Sponsored Prize</h3>
                 <p>Any of our sponsors may also provide an additional incentive for hackers to engage with their technology. Being a prize sponsor at a hackathon means offering prizes for hackers who tailor their hacks to particular interests or technologies you support.</p>
@@ -95,6 +150,10 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="picturegallery/js/bootstrap-image-gallery.min.js"></script>
 
 </body>
 
