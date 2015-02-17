@@ -20,9 +20,14 @@
             border-top-right-radius: 0px;
             border-bottom-right-radius: 0px;
 }
+tr{
+  border:none;
+}
+
 .table.fixedCol th,
 .table.fixedCol td {
     /* background is set to white to hide underlaying column
        of original table */
     background: white;
+    border:none;
 }
