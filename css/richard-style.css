@@ -31,8 +31,3 @@ tr{
     background: white;
     border:none;
 }
-
-/*to fix unscrollable screen*/
-body#page-top {
-  overflow: auto!important;
-}
