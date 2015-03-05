@@ -30,19 +30,27 @@ h6 {
     letter-spacing: 1px;
 }
 
+h1{
+    margin: 2em 0 1em;
+}
+
 h4{
     margin: 1em 0 0;
 }
 
+h3{
+    margin: 4em 0 1em;
+}
+
 p {
-    margin: 0 0 25px;
+    margin: 0 0 1em;
     font-size: 16px;
     line-height: 1.5;
 }
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
+        margin: 0 0 1em;
         font-size: 18px;
         line-height: 1.6;
     }
@@ -253,7 +261,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 00px;
 }
 
 .download-section {
@@ -276,7 +284,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 0px;
     }
 
     .download-section {
